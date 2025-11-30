@@ -3,6 +3,21 @@ Azure 3-Tier Secure Architecture – Portfolio Project
 This project demonstrates a production-style, security-first 3-tier architecture deployed fully on Microsoft Azure.
 It showcases real-world cloud engineering skills in networking, identity, private endpoints, RBAC, VM configuration, and application integration.
 
+Project Structure:
+
+├── app-api/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── README.md
+├── infra/
+│   ├── architecture-diagram.png
+│   ├── network-overview.md
+│   └── security-controls.md
+├── scripts/
+│   ├── install-azure-cli.sh
+│   └── deploy-vm.sh
+└── README.md
+
 ---
 
   Architecture Overview
