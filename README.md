@@ -45,11 +45,11 @@ Peered for secure east–west traffic
 
 Strict segmentation:
 
-Frontend → API allowed
+Frontend to API allowed
 
-API → SQL allowed
+API to SQL allowed
 
-Internet → only allowed to frontend
+Internet to only allowed to frontend
 
 All other flows denied
 
@@ -187,4 +187,4 @@ End-to-end debugging of identity, routing, and security
 
 Project Outcome
 
-A fully functioning, identity-secured, privately-routed, production-style 3-tier architecture running entirely inside Azure — built, validated, and tested end-to-end.
+A fully functioning, identity-secured, privately-routed, production-style 3-tier architecture running entirely inside Azure, built, validated, and tested end-to-end.
